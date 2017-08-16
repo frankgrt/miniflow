@@ -35,8 +35,8 @@ class Node(object):
 
     def forward(self):
         """
-        Every node that uses this class as a base class will
         need to define its own `forward` method.
+        Every node that uses this class as a base class will
         """
         raise NotImplementedError
 

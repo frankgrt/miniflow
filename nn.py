@@ -42,4 +42,8 @@ Expected output
        [  1.00205742e-04]]), array([ -5.01028709e-05])]
 """
 
-print(gradients)
+#print(gradients)
+#print (cost.value)
+print (cost.gradients[y])
+print (cost.gradients[a])
+print (cost.m)
